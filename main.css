@@ -50,22 +50,38 @@ body, html {
     min-height: 600px;
     display: block;
     cursor: pointer;
+    background-size: 115%;
+    transition-duration: 0.3s;
   }
- 
+  .paralaxFlyingEwu:hover
+  {
+      background-size: 120%;
+  }
   
   .paralaxEwuGame {
     background-image: url("images/EwuGameSH.jpg");
     min-height: 600px;
      display: block;
      cursor: pointer;
+     background-size: 100%;
+    transition-duration: 0.3s;
   }
-
+  .paralaxEwuGame:hover
+  {
+      background-size: 105%;
+  }
 
   .paralaxEwusTown {
     background-image: url("images/EwusTownSH.PNG");
     min-height: 70%;
     display: block;
     cursor: pointer;
+    background-size: 159%;
+    transition-duration: 0.3s;
+  }
+  .paralaxEwusTown:hover
+  {
+      background-size: 164%;
   }
   
   .caption {
@@ -121,7 +137,7 @@ body, html {
   }
 
   .container {
-    height: 100px;
+    height: 80px;
     position: relative;
   }
   
