@@ -1,3 +1,3 @@
 function openDownloadPage(){
-    open("https://store.unity.com/de/download?ref=personal")
+    open("https://store.unity.com/de/get-unity/download")
 }
