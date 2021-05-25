@@ -1,3 +1,3 @@
 function openDownloadPage(){
-    open("https://store.unity.com/de/get-unity/download")
+    open("https://unity3d.com/de/get-unity/download")
 }
